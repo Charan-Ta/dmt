@@ -1,0 +1,11 @@
+.container {
+    height: 92vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.stores-wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 0 10%;
+}

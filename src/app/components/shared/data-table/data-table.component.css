@@ -1,0 +1,16 @@
+.table-wrapper {
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+.table-wrapper th, td {
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pagination-wrapper {
+    justify-content: flex-end;
+    margin: 5px;
+}

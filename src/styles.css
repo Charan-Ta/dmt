@@ -1,1 +1,113 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .app-color-white {
+    color: #FFFFFF;
+  }
+  
+  .app-color-grey {
+    color: #555555;
+  }
+  
+  .app-color-lt-grey {
+    color: #EEEEEE;
+  }
+  
+  .app-color-blue {
+    color: #2196f3;
+  }
+
+  .app-bckg-grey {
+    background-color: #333333;
+  }
+  
+  .app-bckg-lt-grey {
+    background-color: #EEEEEE;
+  }  
+  
+  .app-flex {
+    display: flex;
+  }
+  
+  .app-flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-align-center {
+    align-items: center;
+  }
+  
+  .app-justify-center {
+    justify-content: center;
+  }
+  
+  .app-hr {
+    height: 1px;
+    margin: 5px 0px;
+    border: none;
+  }
+
+  .app-transparent-btn{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .font-12 {
+    font-size: 12px;
+  }
+
+  .font-14 {
+    font-size: 14px;
+  }
+
+  .font-16 {
+    font-size: 16px;
+  }
+
+  .font-18 {
+    font-size: 18px;
+  }
+
+  .font-20 {
+    font-size: 20px;
+  }
+
+  .font-22 {
+    font-size: 22px;
+  }
+
+  .font-24 {
+    font-size: 24px;
+  }
+
+  .font-28 {
+    font-size: 28px;
+  }
+
+  .font-36 {
+    font-size: 36px;
+  }
+
+  .hmargin {
+    margin: 0 5px;
+  }
