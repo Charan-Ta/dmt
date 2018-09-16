@@ -1,6 +1,6 @@
 .container {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 8vh;
     bottom: 0;
     list-style-type: none;
     width: 54px;

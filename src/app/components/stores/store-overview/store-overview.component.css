@@ -1,0 +1,36 @@
+.overview-wrapper {
+  padding: 10px 0;
+}
+
+.edit-btn {
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.details-wrapper {
+    padding: 5px 0;
+}
+
+.whitespace {
+    flex-basis: 4%;
+}
+
+.half-width {
+    flex-basis: 48%;
+}
+
+.full-width {
+    flex-basis: 100%;
+}
+
+.content-wrapper {
+    flex-wrap: wrap;
+}
+
+.content {
+    margin: 10px 0;
+}
+
+.overview-subwrapper {
+    padding: 120px 0;
+}

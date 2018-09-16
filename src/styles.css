@@ -17,9 +17,13 @@
   .app-color-white {
     color: #FFFFFF;
   }
+
+  .app-color-red {
+    color: #FF0000;
+  }
   
   .app-color-grey {
-    color: #555555;
+    color: #C0C0C0;
   }
   
   .app-color-lt-grey {
