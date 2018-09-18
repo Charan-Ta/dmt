@@ -1,0 +1,72 @@
+.deployment-wrapper {
+    padding: 10px 15%;
+}
+
+.deployment-nav-btn {
+    margin: 10px 0 0 0;
+}
+
+.status-btn {
+    margin: 0 15px;
+}
+
+.deployment-details {
+    padding: 20px 0;
+}
+
+.header {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.header-left {
+    flex-basis: 80%;
+}
+
+.header-right {
+    flex-basis: 20%;
+    align-items: flex-end;
+}
+
+.draft {
+    border: 1px solid #C0C0C0;
+    padding: 1px 2px;
+    border-radius: 4px;
+    color: #333333;
+}
+
+.completed {
+    border: 1px solid #4CAF50;
+    background: #4CAF50;
+    padding: 1px 2px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.published {
+    border: 1px solid #FF5722;
+    padding: 1px 2px;
+    border-radius: 4px;
+    color: #FF5722;
+}
+
+.deployment-overview {
+    padding: 5px 0 0 0;
+}
+
+.deployment-overview>p {
+    flex-basis: 33%;
+}
+
+.deployment-schedule,
+.deployment-fixtures {
+    padding: 15px 0 0 0;
+}
+
+.deployment-schedule-timeline {
+    padding: 5px 0 0 0;
+}
+
+.deployment-schedule-timeline .arrow {
+    margin: 0 15px;
+}

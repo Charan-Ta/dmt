@@ -7,111 +7,114 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-  }
+}
 
-  body {
+body {
     font-family: 'Roboto', sans-serif;
-  }
+}
 
-
-  .app-color-white {
+.app-color-white {
     color: #FFFFFF;
-  }
+}
 
-  .app-color-red {
+.app-color-red {
     color: #FF0000;
-  }
-  
-  .app-color-grey {
-    color: #C0C0C0;
-  }
-  
-  .app-color-lt-grey {
-    color: #EEEEEE;
-  }
-  
-  .app-color-blue {
-    color: #2196f3;
-  }
+}
 
-  .app-bckg-grey {
+.app-color-grey {
+    color: #C0C0C0;
+}
+
+.app-color-lt-grey {
+    color: #EEEEEE;
+}
+
+.app-color-blue {
+    color: #2196f3;
+}
+
+.app-bckg-grey {
     background-color: #333333;
-  }
-  
-  .app-bckg-lt-grey {
+}
+
+.app-bckg-lt-grey {
     background-color: #EEEEEE;
-  }  
-  
-  .app-flex {
+}
+
+.app-flex {
     display: flex;
-  }
-  
-  .app-flex-column {
+}
+
+.app-flex-column {
     display: flex;
     flex-direction: column;
-  }
-  
-  .app-align-center {
+}
+
+.app-align-center {
     align-items: center;
-  }
-  
-  .app-justify-center {
+}
+
+.app-justify-center {
     justify-content: center;
-  }
-  
-  .app-hr {
+}
+
+.app-hr {
     height: 1px;
     margin: 5px 0px;
     border: none;
-  }
+}
 
-  .app-transparent-btn{
+.app-transparent-btn {
     border: none;
     background: none;
     outline: none;
     cursor: pointer;
-  }
-  
-  .font-bold {
+}
+
+.font-bold {
     font-weight: bold;
-  }
-  
-  .font-12 {
+}
+
+.font-11 {
+    font-size: 11px;
+}
+
+.font-12 {
     font-size: 12px;
-  }
+}
 
-  .font-14 {
+.font-14 {
     font-size: 14px;
-  }
+}
 
-  .font-16 {
+.font-16 {
     font-size: 16px;
-  }
+}
 
-  .font-18 {
+.font-18 {
     font-size: 18px;
-  }
+}
 
-  .font-20 {
+.font-20 {
     font-size: 20px;
-  }
+}
 
-  .font-22 {
+.font-22 {
     font-size: 22px;
-  }
+}
 
-  .font-24 {
+.font-24 {
     font-size: 24px;
-  }
+}
 
-  .font-28 {
+.font-28 {
     font-size: 28px;
-  }
+}
 
-  .font-36 {
+.font-36 {
     font-size: 36px;
-  }
+}
 
-  .hmargin {
+.hmargin {
     margin: 0 5px;
-  }
+}
