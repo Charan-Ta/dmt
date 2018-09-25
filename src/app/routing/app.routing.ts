@@ -2,6 +2,7 @@ import { ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { StoresComponent } from './../components/stores/stores.component';
 import { StoreDetailsComponent } from './../components/stores/store-details/store-details.component';
+import { StoreProgramDetailComponent } from './../components/stores/store-program-detail/store-program-detail.component';
 
 const appRoutes: Routes = [
     {
@@ -30,6 +31,10 @@ const StoresRoute: Routes = [
     {
         path: 'store-details',
         component: StoreDetailsComponent
+    },
+    {
+        path: 'store-program',
+        component: StoreProgramDetailComponent
     }
 ];
 

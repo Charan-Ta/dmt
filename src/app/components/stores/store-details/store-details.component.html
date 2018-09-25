@@ -1,61 +1,61 @@
 <header></header>
 <div class="app-flex container">
-  <sidebar></sidebar>
-  <div class="stores-wrapper">
-    <p class="app-flex app-align-center app-color-grey">
-      <span>Stores</span>
-      <span class="fa fa-angle-right hmargin"></span>
-    </p>
-    <div class="app-flex app-align-center header">
-      <h1 class="app-flex app-align-center">
-        <span>Super Awesome Store #222</span>
-        <span class="fa fa-info-circle font-16 app-color-blue info-btn"></span>
-      </h1>
-      <button class="app-flex app-align-center app-transparent-btn font-16 app-color-blue">
+    <sidebar></sidebar>
+    <div class="stores-wrapper">
+        <p class="app-flex app-align-center app-color-grey">
+            <span>Stores</span>
+            <span class="fa fa-angle-right hmargin"></span>
+        </p>
+        <div class="app-flex app-align-center header">
+            <h1 class="app-flex app-align-center">
+                <span>Super Awesome Store #222</span>
+                <span class="fa fa-info-circle font-16 app-color-blue info-btn"></span>
+            </h1>
+            <button class="app-flex app-align-center app-transparent-btn font-16 app-color-blue">
           <i class="fa fa-arrow-circle-o-down hmargin"></i>
           <span class="font-bold">NEW DEPLOYMENT</span>
       </button>
-    </div>
-    <div class="app-flex app-align-center subheader font-14">
-       <div class="app-flex subheader-left">
-          <div class="app-flex-column">
-            <p class="app-color-grey font-bold">STORE ID</p>
-            <p class="font-bold">6578954</p>
-          </div>
-          <div class="app-flex-column">
-              <p class="app-color-grey font-bold">APPLE ID</p>
-              <p class="font-bold">6578954</p>
-          </div>
-          <div class="app-flex-column">
-              <p class="app-color-grey font-bold">CITY</p>
-              <p class="font-bold">Bengaluru</p>
-          </div>
-          <div class="app-flex-column">
-              <p class="app-color-grey font-bold">COUNTRY</p>
-              <p class="font-bold">India</p>
-          </div>
-       </div>
-       <div class="app-flex app-justify-center subheader-center">|</div>
-       <div class="app-flex subheader-right">
-          <div class="app-flex-column shr-wrapper">
-            <p class="app-color-grey font-bold">DEPLOYMENTS</p>
-            <div class="app-flex shr-content">
-              <p class="font-bold"><span class="app-color-grey">DRAFT</span><span class="hmargin">05</span></p>
-              <p class="font-bold"><span class="app-color-grey">SCHEDULED</span><span class="hmargin">05</span></p>
-              <p class="font-bold"><span class="app-color-grey">IN-PROGRESS</span><span class="hmargin">05</span></p>
-              <p class="font-bold"><span class="app-color-grey">COMPLETED</span><span class="hmargin">05</span></p>
-              <p class="font-bold"><span class="app-color-grey">CANCELLED</span><span class="hmargin">05</span></p>
+        </div>
+        <div class="app-flex app-align-center subheader font-14">
+            <div class="app-flex subheader-left">
+                <div class="app-flex-column">
+                    <p class="app-color-grey font-bold">STORE ID</p>
+                    <p class="font-bold">6578954</p>
+                </div>
+                <div class="app-flex-column">
+                    <p class="app-color-grey font-bold">APPLE ID</p>
+                    <p class="font-bold">6578954</p>
+                </div>
+                <div class="app-flex-column">
+                    <p class="app-color-grey font-bold">CITY</p>
+                    <p class="font-bold">Bengaluru</p>
+                </div>
+                <div class="app-flex-column">
+                    <p class="app-color-grey font-bold">COUNTRY</p>
+                    <p class="font-bold">India</p>
+                </div>
             </div>
-          </div>
-       </div>
+            <div class="app-flex app-justify-center subheader-center">|</div>
+            <div class="app-flex subheader-right">
+                <div class="app-flex-column shr-wrapper">
+                    <p class="app-color-grey font-bold">DEPLOYMENTS</p>
+                    <div class="app-flex shr-content">
+                        <p class="font-bold"><span class="app-color-grey">DRAFT</span><span class="hmargin">05</span></p>
+                        <p class="font-bold"><span class="app-color-grey">SCHEDULED</span><span class="hmargin">05</span></p>
+                        <p class="font-bold"><span class="app-color-grey">IN-PROGRESS</span><span class="hmargin">05</span></p>
+                        <p class="font-bold"><span class="app-color-grey">COMPLETED</span><span class="hmargin">05</span></p>
+                        <p class="font-bold"><span class="app-color-grey">CANCELLED</span><span class="hmargin">05</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-flex nav-tabs">
+            <button class="app-transparent-btn font-bold app-color-grey nav-tab-btn" (click)='changeTab(0)' [class.btn-active]='navtab==0'>OVERVIEW</button>
+            <button class="app-transparent-btn font-bold app-color-grey nav-tab-btn" (click)='changeTab(1)' [class.btn-active]='navtab==1'>DEPLOYMENTS</button>
+            <button class="app-transparent-btn font-bold app-color-grey nav-tab-btn" (click)='changeTab(2)' [class.btn-active]='navtab==2'>FIXTURES</button>
+        </div>
+        <store-overview *ngIf='navtab==0'></store-overview>
+        <store-deployments *ngIf='navtab==1'></store-deployments>
+        <store-fixtures *ngIf='navtab==2'></store-fixtures>
     </div>
-    <div class="app-flex nav-tabs">
-      <button class="app-transparent-btn font-bold app-color-grey nav-tab-btn" (click)='changeTab(0)' [class.btn-active]='navtab==0'>OVERVIEW</button>
-      <button class="app-transparent-btn font-bold app-color-grey nav-tab-btn" (click)='changeTab(1)' [class.btn-active]='navtab==1'>DEPLOYMENTS</button>
-      <button class="app-transparent-btn font-bold app-color-grey nav-tab-btn" (click)='changeTab(2)' [class.btn-active]='navtab==2'>FIXTURES</button>
-    </div>
-      <store-overview *ngIf='navtab==0'></store-overview>
-      <store-deployments *ngIf='navtab==1'></store-deployments>
-      <store-fixtures *ngIf='navtab==2'></store-fixtures>
-  </div>
 </div>

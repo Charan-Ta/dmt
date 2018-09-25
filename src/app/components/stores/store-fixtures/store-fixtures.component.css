@@ -1,0 +1,47 @@
+.fixtures-wrapper {
+    padding: 10px 15%;
+}
+
+.fixtures-nav-btn {
+    margin: 10px 0 0 0;
+}
+
+.fixtures-details {
+    padding: 20px 0;
+}
+
+.fixtures-overview {
+    padding: 5px 0 0 0;
+}
+
+.fixtures-overview>p {
+    flex-basis: 33%;
+}
+
+.fixtures-overview>p>span {
+    flex-basis: 50%;
+}
+
+.full-width {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.whitespace {
+    flex-basis: 5%;
+}
+
+.single-fixture-wrapper {
+    padding: 15px;
+    flex-basis: 30%;
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+}
+
+.edit-btn {
+    margin: 10px 0;
+}
+
+.single-fixture-wrapper>p {
+    margin: 10px 0;
+}

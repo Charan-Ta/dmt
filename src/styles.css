@@ -118,3 +118,40 @@ body {
 .hmargin {
     margin: 0 5px;
 }
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.draft {
+    border: 1px solid #C0C0C0;
+    padding: 1px 2px;
+    border-radius: 4px;
+    color: #333333;
+}
+
+.completed {
+    border: 1px solid #4CAF50;
+    background: #4CAF50;
+    padding: 1px 2px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.published {
+    border: 1px solid #FF5722;
+    padding: 1px 2px;
+    border-radius: 4px;
+    color: #FF5722;
+}
+
+input:focus::-webkit-input-placeholder{
+    color: transparent!important;
+}
+input:focus::-moz-placeholder{
+    color: transparent!important;
+}
+input:focus:-moz-placeholder{
+    color: transparent!important;
+}

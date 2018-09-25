@@ -7,7 +7,7 @@ import { StoreDetailsComponent } from '../../components/stores/store-details/sto
 import { StoreOverviewComponent } from '../../components/stores/store-overview/store-overview.component';
 import { StoreDeploymentsComponent } from '../../components/stores/store-deployments/store-deployments.component';
 import { StoreFixturesComponent } from '../../components/stores/store-fixtures/store-fixtures.component';
-
+import { StoreProgramDetailComponent } from '../../components/stores/store-program-detail/store-program-detail.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -19,7 +19,8 @@ import { StoreFixturesComponent } from '../../components/stores/store-fixtures/s
     StoreDetailsComponent,
     StoreOverviewComponent,
     StoreDeploymentsComponent,
-    StoreFixturesComponent
+    StoreFixturesComponent,
+    StoreProgramDetailComponent
   ]
 })
 export class StoresModule { }
